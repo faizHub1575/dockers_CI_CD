@@ -6,7 +6,7 @@ WORKDIR /app
 COPY ./package.json ./package.json
 COPY ./package-lock.json ./package-lock.json 
 
-RUN nnpm intall
+RUN npm intall
 
 COPY . .
 
